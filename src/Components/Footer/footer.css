@@ -1,0 +1,35 @@
+.footer_links li{
+list-style: none;
+margin: 10px 0px;
+color: rgba(255, 255, 255, 0.735);
+}
+
+footer{
+    background-color: var(--primary-color);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer__text {
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.735);
+}
+.footer__quick-title{
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+.footer_copyright{
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.735);
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 768px){
+.footer_links{
+    padding: 0;
+}
+.footer__quick-title h4{
+    padding: 0;
+}
+}

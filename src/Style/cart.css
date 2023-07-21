@@ -1,0 +1,16 @@
+.table tr td img{
+    width: 60px;
+    height: 60px !important;
+    object-fit: contains;
+
+}
+td i{
+    font-size: 18px;
+    cursor:pointer;
+}
+td,th {
+    color: var(--primary-color);
+}
+.customClass{
+    font-size: 25px;
+}

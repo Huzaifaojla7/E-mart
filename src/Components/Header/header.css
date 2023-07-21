@@ -1,0 +1,46 @@
+.nav_icons span {
+    padding: 0px 10px;
+}
+
+.nav_icons span i {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.nav_icons .profile img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.customDropDown{
+    cursor: pointer;
+}
+
+.nav-item {
+    font-size: 18px;
+}
+
+.fav_icon,
+.Cart_icon {
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    right: 0%;
+    content: '';
+    background-color: black;
+    color: #fff;
+    border-radius: 50px !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+    font-weight: 600;
+    z-index: 10;
+
+}

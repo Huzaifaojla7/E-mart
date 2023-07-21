@@ -1,0 +1,40 @@
+.admin_header {
+    background-color: var(--primary-color);
+}
+
+.dashboardCustom {
+    display: flex;
+    align-items: center;
+    width: 130px;
+    justify-content: space-between;
+}
+
+.dashboardCustom img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.dashboardCustom span i {
+    color: white;
+    font-size: 18px;
+}
+
+.admin_menu {
+    width: 100%;
+    min-height: 70px;
+    line-height: 70px;
+    background: var(--card-bg-03);
+}
+
+.admin_menu-list .admin_menu-item a {
+    color: var(--primary-color);
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.active_admin-menu {
+    background: whitesmoke;
+}
+
