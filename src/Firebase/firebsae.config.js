@@ -5,7 +5,7 @@ import {getFirestore} from 'firebase/firestore'
 import {getStorage} from 'firebase/storage'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCNRq7UG_Bl9CC7NynNMEhng_DMu_UHwQw",
+  apiKey: "AIzaSyCNRq7UG_Bl9CC7NynNMEhng_DMu_UHwQw",
   authDomain: "emart-e20dc.firebaseapp.com",
   projectId: "emart-e20dc",
   storageBucket: "emart-e20dc.appspot.com",
